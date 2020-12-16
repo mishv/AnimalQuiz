@@ -15,7 +15,7 @@ class ResultsViewController: UIViewController {
     
     
     // MARK: Properties
-    private var answers: [Answer] = []
+    var answers: [Answer] = []
     
     
     // MARK: Life Cycle Methods
