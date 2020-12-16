@@ -76,22 +76,22 @@ class ResultsViewController: UIViewController {
     
     // MARK: Functions
     private func showDog() {
-        animalLabel.text = "Вы - 🐶"
+        animalLabel.text = "Вы - \(String(AnimalType.dog.rawValue))"
         textLabel.text = AnimalType.dog.definition
     }
     
     private func showCat() {
-        animalLabel.text = "Вы - 🐱"
+        animalLabel.text = "Вы - \(String(AnimalType.cat.rawValue))"
         textLabel.text = AnimalType.cat.definition
     }
     
     private func showRabbit() {
-        animalLabel.text = "Вы - 🐰"
+        animalLabel.text = "Вы - \(String(AnimalType.rabbit.rawValue))"
         textLabel.text = AnimalType.rabbit.definition
     }
     
     private func showTurtle() {
-        animalLabel.text = "Вы - 🐢"
+        animalLabel.text = "Вы - \(String(AnimalType.turtle.rawValue))"
         textLabel.text = AnimalType.turtle.definition
     }
 
